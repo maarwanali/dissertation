@@ -1,0 +1,10 @@
+.venv
+.env
+
+__pycache__/*
+
+archive/*
+archive_2/*
+archive_3_good result/*
+
+

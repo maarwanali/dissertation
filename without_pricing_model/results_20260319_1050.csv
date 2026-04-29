@@ -1,0 +1,9 @@
+Scenario,Algorithm,Passengers_Assigned,Total_Passengers,Distance_KM,Seat_Occupancy_Pct,Runtime_MS
+Low_Demand,Greedy,32,45,69,92.0,0.08
+Low_Demand,GeneticAlg,40,45,69,92.0,803.27
+Medium_Urban,Greedy,97,130,324,80.0,0.43
+Medium_Urban,GeneticAlg,119,130,324.33,80.08,4483.12
+High_Congestion,Greedy,183,250,872,86.51,1.38
+High_Congestion,GeneticAlg,221,250,854,84.72,11706.28
+Extreme_Peak,Greedy,310,450,1879,83.1,4.02
+Extreme_Peak,GeneticAlg,385,450,1739.33,76.93,33413.84

@@ -1,0 +1,81 @@
+Scenario,Dataset_Trial_ID,Algorithm,Pricing_Type,Passengers_Assigned,Total_Passengers,Total_Revenue_BYN,Seat_Occupancy_Pct,Runtime_MS,StdDev_Passengers,StdDev_Revenue,Num_Trials,T_Statistic,P_Value,Significance
+Low_Demand,1,Greedy,Static,33,45,179.72,76.0,0.26,0.0,0.0,1,,,Baseline
+Low_Demand,1,GeneticAlg,Static,33,45,179.72,76.0,903.48,0.0,0.0,10,nan,nan,not significant
+Low_Demand,1,Greedy,Dynamic,27,45,174.2,93.33,0.2,0.0,0.0,1,,,Baseline
+Low_Demand,1,GeneticAlg,Dynamic,37,45,210.02,91.6,763.53,0.0,0.83,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,2,Greedy,Static,31,45,177.71,82.86,0.2,0.0,0.0,1,,,Baseline
+Low_Demand,2,GeneticAlg,Static,34,45,183.71,82.86,883.9,0.0,0.0,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,2,Greedy,Dynamic,30,45,175.85,94.29,0.21,0.0,0.0,1,,,Baseline
+Low_Demand,2,GeneticAlg,Dynamic,38,45,211.82,94.14,824.07,0.0,0.88,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,3,Greedy,Static,28,45,139.79,49.41,0.27,0.0,0.0,1,,,Baseline
+Low_Demand,3,GeneticAlg,Static,28,45,139.79,49.41,1042.46,0.0,0.0,10,nan,nan,not significant
+Low_Demand,3,Greedy,Dynamic,35,45,209.75,91.76,0.21,0.0,0.0,1,,,Baseline
+Low_Demand,3,GeneticAlg,Dynamic,39,45,225.75,91.76,838.76,0.0,0.49,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,4,Greedy,Static,34,45,167.75,71.43,0.22,0.0,0.0,1,,,Baseline
+Low_Demand,4,GeneticAlg,Static,34,45,167.75,71.43,898.75,0.0,0.0,10,nan,nan,not significant
+Low_Demand,4,Greedy,Dynamic,31,45,177.49,88.57,0.24,0.0,0.0,1,,,Baseline
+Low_Demand,4,GeneticAlg,Dynamic,36,45,199.46,88.57,781.85,0.0,0.62,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,5,Greedy,Static,34,45,199.67,88.0,0.19,0.0,0.0,1,,,Baseline
+Low_Demand,5,GeneticAlg,Static,35,45,201.67,88.0,879.82,0.0,0.0,10,inf,0.0,p<0.05 ✓ significant
+Low_Demand,5,Greedy,Dynamic,30,45,182.74,92.0,0.19,0.0,0.0,1,,,Baseline
+Low_Demand,5,GeneticAlg,Dynamic,37,45,209.24,90.67,811.73,0.0,0.63,10,inf,0.0,p<0.05 ✓ significant
+Medium_Urban,1,Greedy,Static,83,130,513.13,42.96,1.63,0.0,0.0,1,,,Baseline
+Medium_Urban,1,GeneticAlg,Static,83,130,513.13,42.96,6411.93,0.0,0.0,10,nan,nan,not significant
+Medium_Urban,1,Greedy,Dynamic,95,130,755.26,78.52,1.39,0.0,0.0,1,,,Baseline
+Medium_Urban,1,GeneticAlg,Dynamic,122,130,863.51,80.72,4133.28,0.0,4.53,10,inf,0.0,p<0.05 ✓ significant
+Medium_Urban,2,Greedy,Static,84,130,610.89,52.48,1.62,0.0,0.0,1,,,Baseline
+Medium_Urban,2,GeneticAlg,Static,84,130,610.89,52.48,6278.99,0.0,0.0,10,nan,nan,not significant
+Medium_Urban,2,Greedy,Dynamic,98,130,808.82,82.51,1.45,0.0,0.0,1,,,Baseline
+Medium_Urban,2,GeneticAlg,Dynamic,117,130,878.52,83.24,4612.68,0.0,4.98,10,inf,0.0,p<0.05 ✓ significant
+Medium_Urban,3,Greedy,Static,77,130,511.11,48.51,1.61,0.0,0.0,1,,,Baseline
+Medium_Urban,3,GeneticAlg,Static,77,130,511.11,48.51,7517.45,0.0,0.0,10,nan,nan,not significant
+Medium_Urban,3,Greedy,Dynamic,78,130,672.29,81.03,1.24,0.0,0.0,1,,,Baseline
+Medium_Urban,3,GeneticAlg,Dynamic,108.9,130,784.19,81.79,4311.68,0.32,6.71,10,309.0,0.0,p<0.05 ✓ significant
+Medium_Urban,4,Greedy,Static,84,130,640.82,67.52,1.35,0.0,0.0,1,,,Baseline
+Medium_Urban,4,GeneticAlg,Static,84,130,640.82,67.52,6674.89,0.0,0.0,10,nan,nan,not significant
+Medium_Urban,4,Greedy,Dynamic,75,130,650.5,82.91,1.12,0.0,0.0,1,,,Baseline
+Medium_Urban,4,GeneticAlg,Dynamic,100,130,727.51,81.42,4472.94,0.0,8.62,10,inf,0.0,p<0.05 ✓ significant
+Medium_Urban,5,Greedy,Static,89,130,658.8,60.86,1.5,0.0,0.0,1,,,Baseline
+Medium_Urban,5,GeneticAlg,Static,89,130,658.8,60.86,6207.81,0.0,0.0,10,nan,nan,not significant
+Medium_Urban,5,Greedy,Dynamic,81,130,699.88,78.54,1.28,0.0,0.0,1,,,Baseline
+Medium_Urban,5,GeneticAlg,Dynamic,106,130,784.85,78.23,3994.75,0.0,5.15,10,inf,0.0,p<0.05 ✓ significant
+High_Congestion,1,Greedy,Static,147,250,1307.46,50.4,4.6,0.0,0.0,1,,,Baseline
+High_Congestion,1,GeneticAlg,Static,147,250,1307.46,50.4,22061.49,0.0,0.0,10,nan,nan,not significant
+High_Congestion,1,Greedy,Dynamic,123,250,1597.37,76.49,3.98,0.0,0.0,1,,,Baseline
+High_Congestion,1,GeneticAlg,Dynamic,214.9,250,1844.19,71.88,12509.12,0.32,21.47,10,919.0,0.0,p<0.05 ✓ significant
+High_Congestion,2,Greedy,Static,152,250,1331.42,47.77,5.23,0.0,0.0,1,,,Baseline
+High_Congestion,2,GeneticAlg,Static,152,250,1331.43,47.77,21765.13,0.0,0.0,10,nan,nan,not significant
+High_Congestion,2,Greedy,Dynamic,145,250,1706.85,73.65,4.9,0.0,0.0,1,,,Baseline
+High_Congestion,2,GeneticAlg,Dynamic,222.8,250,1973.25,73.21,12261.84,0.42,23.96,10,583.5,0.0,p<0.05 ✓ significant
+High_Congestion,3,Greedy,Static,151,250,1313.46,47.65,5.04,0.0,0.0,1,,,Baseline
+High_Congestion,3,GeneticAlg,Static,151,250,1313.47,47.65,20574.06,0.0,0.0,10,nan,nan,not significant
+High_Congestion,3,Greedy,Dynamic,150,250,1748.62,76.03,4.3,0.0,0.0,1,,,Baseline
+High_Congestion,3,GeneticAlg,Dynamic,226.8,250,2006.51,75.23,11802.57,0.42,25.93,10,576.0,0.0,p<0.05 ✓ significant
+High_Congestion,4,Greedy,Static,165,250,1429.24,57.88,4.75,0.0,0.0,1,,,Baseline
+High_Congestion,4,GeneticAlg,Static,165,250,1429.25,57.88,18302.7,0.0,0.0,10,nan,nan,not significant
+High_Congestion,4,Greedy,Dynamic,133,250,1540.14,74.79,4.38,0.0,0.0,1,,,Baseline
+High_Congestion,4,GeneticAlg,Dynamic,215.9,250,1818.17,73.67,11563.34,0.32,21.41,10,829.0,0.0,p<0.05 ✓ significant
+High_Congestion,5,Greedy,Static,157,250,1461.12,55.5,4.83,0.0,0.0,1,,,Baseline
+High_Congestion,5,GeneticAlg,Static,157,250,1461.13,55.5,19190.13,0.0,0.0,10,nan,nan,not significant
+High_Congestion,5,Greedy,Dynamic,142,250,1689.87,75.48,4.19,0.0,0.0,1,,,Baseline
+High_Congestion,5,GeneticAlg,Dynamic,221.8,250,1961.63,74.83,12441.67,0.79,19.15,10,319.9117,0.0,p<0.05 ✓ significant
+Extreme_Peak,1,Greedy,Static,263,450,2780.35,49.98,14.31,0.0,0.0,1,,,Baseline
+Extreme_Peak,1,GeneticAlg,Static,263,450,2780.35,49.98,63713.88,0.0,0.0,10,nan,nan,not significant
+Extreme_Peak,1,Greedy,Dynamic,221,450,3464.57,75.67,11.58,0.0,0.0,1,,,Baseline
+Extreme_Peak,1,GeneticAlg,Dynamic,382.5,450,3897.73,71.68,31977.38,2.01,48.88,10,253.5989,0.0,p<0.05 ✓ significant
+Extreme_Peak,2,Greedy,Static,264,450,2710.53,47.98,22.98,0.0,0.0,1,,,Baseline
+Extreme_Peak,2,GeneticAlg,Static,264,450,2710.53,47.98,66121.28,0.0,0.0,10,nan,nan,not significant
+Extreme_Peak,2,Greedy,Dynamic,239,450,3607.93,77.5,12.55,0.0,0.0,1,,,Baseline
+Extreme_Peak,2,GeneticAlg,Dynamic,394.7,450,3966.79,71.77,32482.55,1.25,36.2,10,393.3692,0.0,p<0.05 ✓ significant
+Extreme_Peak,3,Greedy,Static,253,450,2856.11,51.67,15.21,0.0,0.0,1,,,Baseline
+Extreme_Peak,3,GeneticAlg,Static,253,450,2856.11,51.67,64630.17,0.0,0.0,10,nan,nan,not significant
+Extreme_Peak,3,Greedy,Dynamic,224,450,3573.53,77.72,12.14,0.0,0.0,1,,,Baseline
+Extreme_Peak,3,GeneticAlg,Dynamic,387.9,450,4026.64,74.14,30947.78,0.74,29.62,10,702.4286,0.0,p<0.05 ✓ significant
+Extreme_Peak,4,Greedy,Static,268,450,3009.8,58.27,14.29,0.0,0.0,1,,,Baseline
+Extreme_Peak,4,GeneticAlg,Static,268,450,3009.8,58.27,60389.24,0.0,0.0,10,nan,nan,not significant
+Extreme_Peak,4,Greedy,Dynamic,205,450,3391.25,79.51,10.58,0.0,0.0,1,,,Baseline
+Extreme_Peak,4,GeneticAlg,Dynamic,372.9,450,3731.86,72.16,31914.63,1.37,34.48,10,387.4615,0.0,p<0.05 ✓ significant
+Extreme_Peak,5,Greedy,Static,235,450,2887.94,52.72,15.15,0.0,0.0,1,,,Baseline
+Extreme_Peak,5,GeneticAlg,Static,235,450,2887.94,52.72,70002.8,0.0,0.0,10,nan,nan,not significant
+Extreme_Peak,5,Greedy,Dynamic,214,450,3535.07,77.6,10.66,0.0,0.0,1,,,Baseline
+Extreme_Peak,5,GeneticAlg,Dynamic,368.3,450,3842.17,70.74,32311.17,1.42,54.55,10,344.0709,0.0,p<0.05 ✓ significant
