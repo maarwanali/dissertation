@@ -8,3 +8,5 @@ archive_2/*
 archive_3_good result/*
 
 
+/__pycache__/*
+/.vscode/*
