@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # IMPORTANT: Change this to the name of your generated CSV file
-CSV_FILE = "final_results_20260423_2352.csv"
+CSV_FILE = "final_results.csv"
 
 
 def create_charts():
