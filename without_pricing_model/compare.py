@@ -8,7 +8,7 @@ from greedy import Driver, Passenger, Problem, GreedySolver
 from genatic import GeneticAlgorithm
 
 # Configuration
-DATASET_FILE = "fixed_datasets.json"
+DATASET_FILE = "../data/fixed_datasets.json"
 GA_TRIALS = 10     # Running GA 10 times for academic averaging
 GA_POP = 80
 GA_GENS = 100

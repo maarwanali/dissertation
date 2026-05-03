@@ -49,7 +49,7 @@ from pricing import PricingEngine
 # ─────────────────────────────────────────────────────────────
 # Configuration
 # ─────────────────────────────────────────────────────────────
-DATASET_FILE = "fixed_datasets.json"
+DATASET_FILE = "data/fixed_datasets.json"
 # 10 So out computer could handle the laod in a reasonable time.
 GA_TRIALS = 10
 GA_POP = 100

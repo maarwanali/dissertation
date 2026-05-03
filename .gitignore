@@ -6,6 +6,11 @@ __pycache__/*
 archive/*
 archive_2/*
 archive_3_good result/*
+archive_4/*
+arhive_5/*
+
+data/generator_dataset_static.py
+data/generator.py
 
 
 /__pycache__/*
